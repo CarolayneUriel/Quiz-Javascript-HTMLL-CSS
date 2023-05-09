@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Oswald:wght@300;400;500&family=Roboto+Slab:wght@300;400;700&family=Rubik:wght@300;400;600&family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(7, 7, 7);
+    background-image: url(./assets/Galáxia.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+}
+body h2{
+    color: rgb(58, 57, 57);
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    padding: 30px;
+}
+main{
+    background-color: #2446b6;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.spnQtd{
+    text-align: end;
+    color: aliceblue;
+
+}
+.question{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    padding: 30px;
+
+}
+.answers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    
+    
+}
+button{
+    width: 100%;
+    height: 68px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: rgb(82, 92, 190);
+    color: aliceblue;
+}
+.finish{
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+    color: #ffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.correct{
+    color: #049b48
+}
+.incorrect{
+    color: #a01010
+}
+
+@media screen and (max-width: 480px) {
+ *{
+    width: auto;
+ }
+}
