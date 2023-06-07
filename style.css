@@ -85,13 +85,6 @@ button{
     font-size: 20px;
 }
 
-.correct{
-    color: #049b48
-}
-.incorrect{
-    color: #a01010
-}
-
 @media screen and (max-width: 480px) {
  *{
     width: auto;
